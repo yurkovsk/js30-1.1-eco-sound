@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    overflow-y: hidden;
+    background-color: black;
+}
+.favicon{
+    color: #BDAE82;
+    background: black;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 8vh;
+    background: black;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+}
+
+.list{
+    color: white;
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    justify-content: right;
+    align-items: center;
+    cursor: pointer;
+}
+.list1{
+    font-size: 20px;
+}
+.list1:hover{
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+      contrast(87%);
+}
+.main{
+    display: flex;
+    background-image: url(./assets/img/forest.jpg);
+    height: 82vh;
+    align-items: center;
+}
+.footer{
+    height: 8vh;
+    width: 100%;
+    background-color: black;
+}
+.forest{
+    display: flex;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    fill: white;
+}
+.forest:hover{
+    fill: white;
+    transition: 1s;
+}
+
+.button:hover{
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+    transition: 1s; 
+  
+}
+.button{
+    background-color: transparent;
+    border: none;
+    margin: 0 auto;
+    background-image: url(./assets/svg/play.svg);
+    background-repeat: no-repeat;
+    width: 190px;
+    height: 190px;
+    cursor: pointer;
+}
+.button.pause{
+    background-image: url(./assets/svg/pause.svg);
+    width: 190px;
+    height: 190px;
+}
+.rss{
+    width: 135px;
+    height: 55px;
+}
+.rss:hover{
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+    transition: 0.5s;    
+}
+.q2022{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    word-spacing: 10px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.github{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.github:hover{
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+    transition: 0.5s; 
+}
+.audio{
+    z-index: 0;
+    position: absolute;
+}
+.solovey.active{
+    color:#BDAE82
+}
+.solovey.active:hover{
+    color:white
+}
+
+.drozd.active{
+    color: #BDAE82;
+}
+.zarynka.active{
+    color: #BDAE82;
+}
+.javoronok.active{
+    color: #BDAE82;
+}
+.slavka.active{
+    color: #BDAE82;
+}
